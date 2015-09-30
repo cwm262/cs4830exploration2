@@ -1,20 +1,18 @@
 0 info it worked if it ends with ok
-1 verbose cli [ '/usr/bin/nodejs', '/usr/bin/npm', 'start' ]
+1 verbose cli [ '/usr/bin/nodejs', '/usr/bin/npm', 'config', 'delete', 'prefix' ]
 2 info using npm@1.3.10
 3 info using node@v0.10.25
-4 error Failed to parse json
-4 error Unexpected token i
-5 error File: /home/cdubb/cs4830exploration2/package.json
-6 error Failed to parse package.json data.
-6 error package.json must be actual JSON, not just JavaScript.
-6 error
-6 error This is not a bug in npm.
-6 error Tell the package author to fix their package.json file. JSON.parse
-7 error System Linux 3.16.0-38-generic
-8 error command "/usr/bin/nodejs" "/usr/bin/npm" "start"
-9 error cwd /home/cdubb/cs4830exploration2
-10 error node -v v0.10.25
-11 error npm -v 1.3.10
-12 error file /home/cdubb/cs4830exploration2/package.json
-13 error code EJSONPARSE
-14 verbose exit [ 1, true ]
+4 error Error: ENOENT, unlink '/home/cdubb/.npmrc'
+5 error If you need help, you may report this log at:
+5 error     <http://github.com/isaacs/npm/issues>
+5 error or email it to:
+5 error     <npm-@googlegroups.com>
+6 error System Linux 3.16.0-38-generic
+7 error command "/usr/bin/nodejs" "/usr/bin/npm" "config" "delete" "prefix"
+8 error cwd /home/cdubb/cs4830exploration2
+9 error node -v v0.10.25
+10 error npm -v 1.3.10
+11 error path /home/cdubb/.npmrc
+12 error code ENOENT
+13 error errno 34
+14 verbose exit [ 34, true ]

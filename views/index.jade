@@ -1,5 +1,12 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+  div#content
+    div.row
+      div.col-xs6.col-md-3
+        a(href='trex').thumbnail
+          img(src = "/images/T-Rex_2.png")
+        a(href='stegosaurus').thumbnail
+          img(src = "images/stego.png")
+        a(href='triceratops').thumbnail
+          img(src = "/images/triceratops5.jpg")
